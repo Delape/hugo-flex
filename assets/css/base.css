@@ -1,5 +1,5 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: Ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Cantarell, "Helvetica Neue", sans-serif;
   line-height: 1.6;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,70 @@ pre {
 }
 
 code {
-  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    position: relative;
+    margin: 0 0.333em;
+    padding: 0.333em 0.666em;
+    font-family: 'Inconsolata', monospace, sans-serif;
+    font-size: 0.75em;
+    white-space: pre;
+    background: #faf9f7;
+    border: 1px solid #e5e4e1;
+    top: -2px
+}
+
+
+td,
+th {
+    padding: 0
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    margin: 2em 0;
+    background-color: transparent;
+    border: 1px solid #e5e4e1;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table th,
+table td {
+    position: relative;
+    padding: 0.5em;
+    line-height: 0.95em;
+/*     text-align: left; */
+    border: 1px solid #e5e4e1;
+}
+
+table th {
+    font-size: 0.75em;
+    line-height: 1.25em;
+    padding: 0.666em;
+    color: #000
+}
+
+table td:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -1px;
+    top: -1px;
+    padding: 1px;
+    z-index: -1;
+    content: '';
+    background: #faf9f7
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all ease-out 0.2s
+}
+a:hover,
+a:focus {
+    color: gray;
 }
 
 .Banner {
@@ -56,7 +119,7 @@ code {
 }
 
 .Heading {
-  display: flex;
+/*   display: flex; */
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
@@ -104,7 +167,7 @@ code {
 }
 
 .u-wrapper {
-  max-width: 42rem;
+  max-width: 56rem;
   margin: auto;
 }
 
