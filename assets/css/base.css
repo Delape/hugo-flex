@@ -80,6 +80,18 @@ table td:after {
     background: #faf9f7
 }
 
+a {
+    color: teal;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all ease-out 0.2s
+}
+a:hover,
+a:focus {
+    color: gray;
+}
+
+
 .Banner {
   list-style: none;
   display: flex;
