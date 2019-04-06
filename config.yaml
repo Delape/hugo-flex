@@ -1,6 +1,6 @@
 params:
   color: teal  # Any color in CSS syntax
-  footer:  <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license"> (CC BY-NC 4.0)
+  footer:  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"> (CC BY-NC-SA 4.0)
   rss: To subscribe to this RSS feed, copy its address and paste it into your
     favorite feed reader.
 
