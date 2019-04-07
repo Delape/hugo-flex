@@ -1,3 +1,7 @@
+This fork is just for custom modifications,
+please grab the original one at https://github.com/de-souza/hugo-flex
+
+------------------
 # Hugo Flex
 
 A lightweight Hugo theme leveraging CSS Flexbox
