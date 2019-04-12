@@ -17,6 +17,12 @@ img {
   border-radius: 0.2rem;
 }
 
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 pre {
   overflow-x: auto;
   border: 0.1rem solid lightgray;
