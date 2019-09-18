@@ -11,7 +11,8 @@
 
 {{ define "main" }}
 
-{{ range (.Scratch.Get "paginator").Pages }}
+{{ range where .Site.Pages "Type" "in" site.Params.mainSections }}
+
 <article>
   {{ partial "heading.html" . }}
   {{ .Content }}
